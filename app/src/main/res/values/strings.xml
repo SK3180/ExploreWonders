@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExploreWonders</string>
+    <string name="get_started">Get Started ➤</string>
+    <string name="out_there_go_explore">Out There, Go Explore</string>
+    <string name="it_s_a_big_world">It\'s a Big World</string>
+    <string name="hello">Hello</string>
+    <string name="where_do_you_want_to_go">Where do you want      to go ?</string>
+    <string name="explore_cities">Explore Cities</string>
+    <string name="hello2">Hello</string>
+    <string name="welcome">Welcome</string>
+    <string name="goldenDescription">In the northern province of Punjab is Amritsar, a holy city and a mecca for the Sikh religion. The main attraction in Amritsar is the Golden Temple, also known as the Harmandir Sahib. Built more than 400 years ago, this temple truly is golden, and it is always packed with Sikhs visiting from around India and the rest of the world.</string>
+    <string name="tajmahal">Agra is one of the most-visited cities in all of India. Once the capital of the Mughal Empire, Agra is now home to the iconic structure known as the Taj Mahal. The white marble mausoleum was built in the 17th century, and it is widely regarded as a monument of love.</string>
+    <string name="mysore">In the southern tip of India, you’ll find the city of Mysore. Once the capital of the Wodeyar dynasty, Mysore is best known for housing the magnificent Mysore Palace. The palace is the epitome of opulence, and a tour through the structure will reveal upscale touches like carved rosewood doors, ceilings decorated in ivory and countless paintings on the walls.</string>
+    <string name="ladakh">In northernmost India, in the heavily disputed Kashmir region, is the mountainous destination of Ladakh. This region is large, but it has a low population density and a number of nomadic residents. Breathtaking, pristine scenery is a major draw to the area, but virtually all travelers will also spend time in the town of Leh.</string>
+</resources>

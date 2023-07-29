@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".ladakh">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ladakh"
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:src="@drawable/ladakh" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="411dp"
+        android:layout_height="480dp"
+        android:background="@drawable/citybg"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/avanir"
+                android:gravity="center"
+                android:text="Leh of Ladakh"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="244dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start"
+                android:text=" ★ 4.7(6k reviews)"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="416dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="50dp"
+
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+            <TextView
+                android:layout_width="138dp"
+                android:layout_height="53dp"
+                android:fontFamily="@font/avanir"
+                android:gravity="center"
+                android:text="📍 ladakh"
+                android:textColor="#9A000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20sp"
+                android:fontFamily="@font/avanir"
+                android:gravity="end"
+                android:text="📌Map Direction"
+                android:textColor="#FF20AF8C"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/avanir"
+                android:text="Facilities"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avanir"
+                android:gravity="end"
+                android:text="See all ➱"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_home"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="53dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/citybg"
+                android:src="@drawable/bed" />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="52dp"
+                android:fontFamily="@font/avanir"
+                android:gravity="center"
+                android:text="1 Bed"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/citybg"
+                android:src="@drawable/guide" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="52dp"
+                android:fontFamily="@font/avanir"
+                android:gravity="center"
+                android:text="Guide"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/citybg"
+                android:src="@drawable/dinnericon" />
+
+            <TextView
+                android:layout_width="57dp"
+                android:layout_height="52dp"
+                android:fontFamily="@font/avanir"
+                android:gravity="center"
+                android:text="Dinner"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:fontFamily="@font/avanir"
+                android:textSize="20sp"
+                android:padding="10sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/ladakh"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="253dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/imagebg"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3">
+
+
+        <ImageView
+            android:id="@+id/ladakh1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="8sp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ladakh1" />
+
+        <ImageView
+            android:id="@+id/ladakh2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="8sp"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/ladakh5" />
+
+        <ImageView
+            android:id="@+id/ladakh3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="8sp"
+
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ladakh3" />
+
+        <ImageView
+            android:id="@+id/ladakh4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="8sp"
+            android:background="@drawable/citybg"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ladakh4" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/booking"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/button_home" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/avanir"
+        android:gravity="center"
+        android:text="Book Now"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/booking"
+        app:layout_constraintEnd_toEndOf="@+id/booking"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/booking" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

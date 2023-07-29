@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    tools:context=".booking">
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navigationbg"
+            android:fontFamily="@font/avanir"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Booking"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/navigationbg"
+            android:hint="Name"
+            android:padding="20dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/navigationbg"
+            android:hint="Email Id"
+            android:padding="20dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:id="@+id/phone"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/navigationbg"
+            android:hint="Phone No"
+            android:padding="20dp"
+            android:textColorHint="@color/black" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/booking"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:contentDescription="@string/hello"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       android:layout_marginBottom="130dp"
+        app:layout_constraintVertical_bias="0.888"
+        app:srcCompat="@drawable/button_home" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/avanir"
+        android:gravity="center"
+        android:text="Book Now"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/booking"
+        app:layout_constraintEnd_toEndOf="@+id/booking"
+        app:layout_constraintStart_toStartOf="@+id/booking" />
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="414dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/navigationbg"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+
+            android:padding="5sp"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/explore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:padding="5sp"
+
+            android:src="@drawable/explore" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:padding="5sp"
+            android:src="@drawable/category" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:padding="5sp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:padding="5sp"
+            android:src="@drawable/user" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="411dp"
+
+        android:layout_height="563dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/firework"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_rawRes="@raw/fire" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/booked"
+            android:layout_width="211dp"
+            android:layout_height="169dp"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/baseline_check_circle_24"
+            app:layout_constraintBottom_toTopOf="@+id/booking"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout10" />
+
+        <TextView
+            android:id="@+id/sucess"
+            android:layout_width="282dp"
+            android:layout_height="38dp"
+            android:fontFamily="@font/avanir"
+            android:text="Booking Confirmed"
+            android:visibility="gone"
+            android:textColor="#26FF00"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/booking"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/booked" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
