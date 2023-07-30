@@ -2,6 +2,7 @@ package com.sksingh.explorewonders;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -9,7 +10,7 @@ import android.widget.ImageView;
 public class kerala extends AppCompatActivity {
 
     ImageView m,k1,k2,k3,k4;
-
+    ImageView book;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class kerala extends AppCompatActivity {
         k2 = findViewById(R.id.kerala2);
         k3 = findViewById(R.id.kerala3);
         k4 = findViewById(R.id.kerala4);
+        book = findViewById(R.id.booking);
 
         k1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,13 @@ public class kerala extends AppCompatActivity {
             public void onClick(View view) {
                 m.setImageResource(R.drawable.k4);
 
+            }
+        });
+        book.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent bookingpage = new Intent(kerala.this,booking.class);
+                startActivity(bookingpage);
             }
         });
     }

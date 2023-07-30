@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="237dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,9 +19,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/tm"
+            android:id="@+id/templegold"
             android:layout_width="match_parent"
             android:layout_height="278dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/amritsarbg" />
 
 
@@ -68,7 +69,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout6"
-            android:layout_width="416dp"
+            android:layout_width="410dp"
             android:layout_height="52dp"
             android:layout_marginEnd="50dp"
 
@@ -122,7 +123,7 @@
 
             <TextView
                 android:layout_width="279dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:fontFamily="@font/avanir"
                 android:gravity="end"
                 android:text="See all ➱"
@@ -201,7 +202,7 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/avanir"
                 android:textSize="20sp"
-                android:padding="15sp"
+                android:padding="10sp"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -233,7 +234,7 @@
 
 
         <ImageView
-            android:id="@+id/m1"
+            android:id="@+id/temple1"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="10sp"
@@ -243,7 +244,7 @@
             android:src="@drawable/gt1" />
 
         <ImageView
-            android:id="@+id/m2"
+            android:id="@+id/temple2"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="10sp"
@@ -280,7 +281,7 @@
         android:id="@+id/booking"
         android:layout_width="317dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="20dp"
         android:contentDescription="@string/hello"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

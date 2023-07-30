@@ -15,9 +15,9 @@ public class tajmahal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tajmahal);
-        tm = findViewById(R.id.tm);
-        tm1 = findViewById(R.id.m1);
-        tm2 = findViewById(R.id.m2);
+        tm = findViewById(R.id.templegold);
+        tm1 = findViewById(R.id.temple1);
+        tm2 = findViewById(R.id.temple2);
         tm3 = findViewById(R.id.tm3);
         tm4 = findViewById(R.id.tm4);
 

@@ -20,7 +20,8 @@
         <ImageView
             android:id="@+id/m"
             android:layout_width="match_parent"
-            android:layout_height="278dp"
+            android:layout_height="235dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/kerala" />
 
 
@@ -68,7 +69,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout6"
-            android:layout_width="416dp"
+            android:layout_width="410dp"
             android:layout_height="52dp"
             android:layout_marginEnd="50dp"
 
@@ -211,7 +212,7 @@
                 android:layout_marginEnd="10dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:text="The southwestern state of India known as Kerala is a place of tropical beauty. Palm trees, white sand beaches and eco-tourism are all big reasons to explore the region. Besides its famous backwaters, elegant houseboats and temple festivals, Kerala is also home to Thekkady, a tiger preserve which allows you to admire flora and fauna without crowds."/>
+                android:text="The southwestern state of India known as Kerala is a place of tropical beauty. Palm trees, white sand beaches and eco-tourism are all big reasons to explore the region. Besides its famous backwaters, elegant houseboats and temple festivals, Kerala is also home to Thekkady."/>
 
 
         </LinearLayout>

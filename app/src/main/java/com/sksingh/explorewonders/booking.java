@@ -41,6 +41,7 @@ public class booking extends AppCompatActivity {
                 email.setVisibility(View.GONE);
                 phone.setVisibility(View.GONE);
                 tick.setVisibility(View.VISIBLE);
+                book.setVisibility(View.GONE);
                 Success.setVisibility(View.VISIBLE);
 
 

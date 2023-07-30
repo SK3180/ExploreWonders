@@ -20,7 +20,8 @@
         <ImageView
             android:id="@+id/m"
             android:layout_width="match_parent"
-            android:layout_height="278dp"
+            android:layout_height="233dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/mysore" />
 
 
@@ -53,8 +54,8 @@
                 android:textSize="30sp" />
 
             <TextView
-                android:layout_width="244dp"
-                android:layout_height="48dp"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:gravity="start"
@@ -67,7 +68,7 @@
 
         <LinearLayout
             android:id="@+id/linearLayout6"
-            android:layout_width="416dp"
+            android:layout_width="410dp"
             android:layout_height="52dp"
             android:layout_marginEnd="50dp"
 
@@ -191,6 +192,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="5dp"
             android:orientation="vertical">
 
             <TextView
@@ -211,6 +213,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="@string/mysore"/>
+
 
 
         </LinearLayout>
@@ -279,7 +282,7 @@
         android:id="@+id/booking"
         android:layout_width="317dp"
         android:layout_height="65dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="20dp"
         android:contentDescription="@string/hello"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
